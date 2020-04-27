@@ -61,7 +61,7 @@ describe('HeroesComponent (deep tests)', () => {
     }
   });
 
-  it(`should call heroService.deleteHero when the Hero Component's 
+  it(`should call heroService.deleteHero when the Hero Component's  
     delete button is clicked`, () => {
       spyOn(fixture.componentInstance, 'delete');
       mockHeroService.getHeroes.and.returnValue(of(HEROES));

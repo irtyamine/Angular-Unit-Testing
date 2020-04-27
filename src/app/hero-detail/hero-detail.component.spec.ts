@@ -4,6 +4,7 @@ import { HeroService } from "../hero.service";
 import { of } from "rxjs";
 import { FormsModule } from "@angular/forms";
 import { ActivatedRoute } from "@angular/router";
+import { Location } from "@angular/common";
 
 describe('HeroDetailComponent', () => {
   let fixture: ComponentFixture<HeroDetailComponent>;
